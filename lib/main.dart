@@ -1,4 +1,5 @@
 import 'package:counter/basketball_splash.dart';
+import 'package:counter/flash_light.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class Counter extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BasketballSplash(),
+      home: FlashLight(),
     );
   }
 }
