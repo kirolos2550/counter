@@ -1,5 +1,6 @@
 // ignore_for_file: unused_import
 
+import 'package:counter/basketball_app.dart';
 import 'package:counter/basketball_splash.dart';
 import 'package:counter/counter.dart';
 import 'package:counter/flash_light.dart';
@@ -17,7 +18,7 @@ class Counter extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: counter(),
+      home: BasketballApp(),
     );
   }
 }
