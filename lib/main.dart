@@ -1,9 +1,11 @@
 // ignore_for_file: unused_import
 
+import 'package:counter/routers/app_router.dart';
 import 'package:counter/basketball_app.dart';
 import 'package:counter/basketball_splash.dart';
 import 'package:counter/counter.dart';
 import 'package:counter/flash_light.dart';
+import 'package:counter/splash_for_nav.dart';
 import 'package:flutter/material.dart';
 
 
@@ -17,8 +19,9 @@ class Counter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+
       debugShowCheckedModeBanner: false,
-      home: BasketballApp(),
+      onGenerateRoute: AppRouter.generateRoute,
     );
   }
 }
